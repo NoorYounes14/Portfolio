@@ -24,7 +24,7 @@ import {
 import timeshipImg from "@/assets/project-timeship.jpg";
 import pianoImg from "@/assets/project-piano.jpg";
 import medicalImg from "@/assets/project-medical.jpg";
-import profileAsset from "@/assets/noor-profile.jpg.asset.json";
+import profileImg from "@/assets/noor-profile.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -296,7 +296,7 @@ function Index() {
           <div className="reveal relative mx-auto w-full max-w-md lg:mx-0 lg:ml-auto" style={{ transitionDelay: "200ms" }}>
             <div className="profile-ring aspect-[3/4] overflow-hidden rounded-3xl">
               <img
-                src={profileAsset.url}
+                src={profileImg}
                 alt="Noor Younes in formal attire standing in front of an ornate wooden door"
                 className="h-full w-full object-cover"
                 width={768}
